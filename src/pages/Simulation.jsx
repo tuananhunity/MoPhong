@@ -95,6 +95,13 @@ const Simulation = () => {
             icon: <Orbit className="w-5 h-5" />,
             description: 'Mô phỏng phản ứng oxy hóa Baeyer-Villiger',
             iframeUrl: 'https://sketchfab.com/models/f09f404639384636800dc89d8e8bf665/embed'
+        },
+        {
+            id: 15,
+            title: 'Mô Phỏng Hóa Học',
+            icon: <Beaker className="w-5 h-5" />,
+            description: 'Mô phỏng tương tác hóa học nâng cao',
+            iframeUrl: 'https://admirable-kringle-8adf0c.netlify.app/'
         }
     ];
 
