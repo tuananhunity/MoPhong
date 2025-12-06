@@ -101,7 +101,7 @@ const Simulation = () => {
             title: 'Mô Phỏng Hóa Học',
             icon: <Beaker className="w-5 h-5" />,
             description: 'Mô phỏng tương tác hóa học nâng cao',
-            iframeUrl: 'https://admirable-kringle-8adf0c.netlify.app/'
+            iframeUrl: 'https://exquisite-halva-7454ce.netlify.app/'
         }
     ];
 
