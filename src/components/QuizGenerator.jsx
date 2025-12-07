@@ -18,7 +18,8 @@ const QuizGenerator = ({ reactionTitle, reactionDescription, onClose }) => {
         setScore(0);
 
         try {
-            const response = await fetch('http://localhost:5174/api/generate-quiz', {
+            const apiUrl = import.meta.env.VITE_API_URL || 'http://localhost:5174';
+            const response = await fetch(`${apiUrl}/api/generate-quiz`, {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
